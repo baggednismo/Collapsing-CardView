@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CollapsingCardView">
+        <attr name="title" format="string" />
+        <attr name="subtitle" format="string" />
+        <attr name="stateIcon" format="reference" />
+        <attr name="rotateDirection">
+            <enum name="clockwise" value="0" />
+            <enum name="counterclockwise" value="1" />
+        </attr>
+        <attr name="startCollapsed" format="boolean" />
+        <attr name="iconStartingPosition" format="integer" />
+        <attr name="iconEndingPosition" format="integer" />
+        <attr name="collapsedIcon" format="reference" />
+        <attr name="expandedIcon" format="reference" />
+        <attr name="expandedView" format="reference" />
+    </declare-styleable>
+</resources>

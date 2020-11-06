@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/windowBackground</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowAllowEnterTransitionOverlap">true</item>
+        <item name="android:windowAllowReturnTransitionOverlap">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.AppBarOverlay.Light" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:colorBackground">@color/windowBackground</item>
+        <item name="android:textColor">#FFF</item>
+    </style>
+
+    <style name="Card.Title" parent="AppTheme">
+        <item name="android:maxLines">1</item>
+        <item name="android:textAlignment">textStart</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/title_text_on_default</item>
+        <item name="android:textStyle">bold</item>
+        <item name="fontFamily">sans-serif</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="Card.Subtitle" parent="AppTheme">
+        <item name="android:maxLines">1</item>
+        <item name="android:textAlignment">textStart</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/desc_text_on_default</item>
+        <item name="fontFamily">sans-serif</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="Card.Content.Title" parent="AppTheme">
+        <item name="android:maxLines">1</item>
+        <item name="android:textAlignment">textStart</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/title_text_on_default</item>
+        <item name="fontFamily">sans-serif</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="Card.Content.Subtitle" parent="AppTheme">
+        <item name="android:maxLines">1</item>
+        <item name="android:textAlignment">textStart</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/desc_text_on_default</item>
+        <item name="fontFamily">sans-serif</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+</resources>

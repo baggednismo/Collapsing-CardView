@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.main.MainFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <com.devinmartinolich.collapsingcardview.ui.custom.CollapsingCardView
+            android:id="@+id/card_one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:title="Example Title"
+            app:subtitle="Some longer subtitle text might be necessary."
+            app:stateIcon="@drawable/ic_chevron_right"
+            app:expandedView="@layout/card_content_example_one"
+            app:iconEndingPosition="90"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <com.devinmartinolich.collapsingcardview.ui.custom.CollapsingCardView
+            android:id="@+id/card_two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:title="Example Title"
+            app:subtitle="Some longer subtitle text might be necessary."
+            app:stateIcon="@drawable/ic_add"
+            app:startCollapsed="false"
+            app:expandedView="@layout/card_content_example_one"
+            app:iconEndingPosition="360"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
