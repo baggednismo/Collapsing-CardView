@@ -1,5 +1,8 @@
 # Collapsing-CardView
-Example of creating a collapsing CardView custom view
+Example of creating a custom Collapsing CardView
+
+This is a work in progress. Many things included are not functional. Documentation will follow.
+
 
 <img src="https://github.com/baggednismo/Collapsing-CardView/blob/master/example.gif"
      alt="Project Example"
