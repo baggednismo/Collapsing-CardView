@@ -1,13 +1,28 @@
-# Collapsing-CardView
-Example of creating a custom Collapsing CardView
-
+# Collapsing CardView
 This is a work in progress. Many things included are not functional. Documentation will follow.
-
 
 <img src="https://github.com/baggednismo/Collapsing-CardView/blob/master/example.gif"
      alt="Project Example"
      width="30%" />
 
+## Info
+This projects aims to provide an example or consumable custom CardView that will expand and collapse cleanly with animations.
+
+## Expectations
+* Must be implemented as a custom view
+* Must self contain animation operations
+* Should be configurable via XML & programmatically alike
+* Customizable functionality should include:
+  * title
+  * subtitle
+  * expand/collapse icon
+  * rotation starting point
+  * rotation ending point
+  * default start expanded or collapsed
+  * customizable content within the card
+
+## Credits
+* [Nikhil Panju](https://github.com/nikhilpanju) for his amazing project [FabFilter](https://github.com/nikhilpanju/FabFilter)
 
 License
 -------
