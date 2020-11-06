@@ -3,7 +3,7 @@ Example of creating a collapsing CardView custom view
 
 <img src="https://github.com/baggednismo/Collapsing-CardView/blob/master/example.gif"
      alt="Project Example"
-     style="float: center;" />
+     style="max-width: 30%;" />
 
 
 License
